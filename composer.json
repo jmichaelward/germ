@@ -1,0 +1,25 @@
+{
+  "name": "jmichaelward/germ",
+  "description": "A custom Symfony Console package for local development.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeremy Ward",
+      "email": "jeremy@jmichaelward.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "JMW\\Germ\\": "src/"
+    }
+  },
+  "bin": [
+    "germ"
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/console": "3.4.*"
+  }
+}
